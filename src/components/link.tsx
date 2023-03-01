@@ -9,7 +9,7 @@ export default function Link({ page }: Props) {
 
   return (
     <AnchorLink
-      className="text-green-700 transition duration-500 hover:text-green-400"
+      className="text-white transition duration-500 hover:text-green-500"
       href={lowerCasePage}
     >
       {page}

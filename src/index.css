@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #5d26c1, #a17fe0, #59c173);
+  height: 200vh;
+}
+
+nav {
+  font-family: "Tilt Warp", cursive;
+  letter-spacing: 0.025em;
+}
