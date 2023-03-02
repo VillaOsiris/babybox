@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "@/components/navbar";
+import Home from "./components/home";
 
 function App() {
   const [scrollY, setScrollY] = useState<number>(0);
@@ -15,8 +16,9 @@ function App() {
   }, []);
 
   return (
-    <div className="app bg-blue-300">
+    <div className="app">
       <Navbar scrollY={scrollY} />
+      <Home />
     </div>
   );
 }

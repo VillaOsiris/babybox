@@ -10,7 +10,8 @@ body {
   height: 200vh;
 }
 
-nav {
+nav,
+button {
   font-family: "Tilt Warp", cursive;
   letter-spacing: 0.025em;
 }
