@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "@/components/navbar";
 import Home from "./components/home";
+import Contact from "./components/contact";
 
 function App() {
   const [scrollY, setScrollY] = useState<number>(0);
@@ -19,6 +20,7 @@ function App() {
     <div className="app">
       <Navbar scrollY={scrollY} />
       <Home />
+      <Contact />
     </div>
   );
 }
