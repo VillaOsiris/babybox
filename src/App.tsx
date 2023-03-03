@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "@/components/navbar";
 import Home from "./components/home";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
   const [scrollY, setScrollY] = useState<number>(0);
@@ -17,10 +18,11 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
+    <div className="app flex flex-col gap-10">
       <Navbar scrollY={scrollY} />
       <Home />
       <Contact />
+      <Footer />
     </div>
   );
 }
