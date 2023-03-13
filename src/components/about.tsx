@@ -41,8 +41,8 @@ function About({}: Props) {
         />
         <h2 className="font-bold text-2xl  text-amber-900 my-2">Enjoy</h2>
         <p className="w-[30ch] font-bold text-gray-800">
-          Add a costum messagem with your gift and rest assured that the box
-          will be delivered wih full joy.
+          Add a custom message with your gift and rest assured that the box will
+          be delivered wih full joy.
         </p>
       </div>
     </section>

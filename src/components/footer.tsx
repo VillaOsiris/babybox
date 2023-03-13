@@ -11,7 +11,7 @@ function Footer({}: Props) {
           <img src={Logo} alt="baby box Logo" />
         </a>
         <p>&copy; Babybox </p>
-        <p>All righs reserved. </p>
+        <p>All rights reserved. </p>
       </section>
       <section className="flex justify-evenly w-4/6">
         <div>

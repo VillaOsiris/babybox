@@ -9,7 +9,7 @@ function Home({}: Props) {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   return (
-    <main id="home" className="py-[150px] md:h-full md:pb-0">
+    <main id="home" className="py-[100px] md:h-full md:pb-0">
       <section className="flex bg-gray-200 border-yellow-600 border-4 rounded-3xl w-3/4 h-1/2 overflow-hidden drop-shadow-lg  m-auto">
         <div className="flex flex-col p-10 gap-4">
           <img src={HeroImg} alt="baby box logo" width="400px" />
@@ -17,7 +17,7 @@ function Home({}: Props) {
           <h2 className="font-bold text-3xl text-green-500 tracking-wide">
             UNBOXING JOY!
           </h2>
-          <p className="w-3/5 text-lg font-bold text-blue-900">
+          <p className="w-3/5 text-lg text-blue-900">
             Help new mothers discover new and useful products to help them
             navigate their pregnancy and motherhood journey with our monthly
             boxes.

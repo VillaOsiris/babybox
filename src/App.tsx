@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import About from "./components/about";
 import Plans from "./components/plans";
 import Brands from "./components/brands";
+import Carousel from "./components/carousel.jsx";
 
 function App() {
   const [scrollY, setScrollY] = useState<number>(0);
@@ -21,12 +22,12 @@ function App() {
   }, []);
 
   return (
-    <div className="app flex flex-col gap-10">
+    <div className="app flex flex-col gap-20">
       <Navbar scrollY={scrollY} />
       <Home />
       <About />
       <Plans />
-      <Brands />
+      <Carousel />
       <Contact />
       <Footer />
     </div>

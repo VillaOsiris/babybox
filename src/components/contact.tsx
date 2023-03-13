@@ -12,7 +12,7 @@ function Contact({}: Props) {
         <h2 className="font-bold text-3xl text-green-500">
           NOT SURE HOW IT WORKS?
         </h2>
-        <p className="text-lg font-bold text-blue-900 mt-6 tracking-wide">
+        <p className="text-lg text-blue-900 mt-6 tracking-wide">
           BabyBox is a subscription service that offers monthly boxes filled
           with pregnancy and baby-related products. Each box contains a
           selection of carefully curated items, such as skincare products,
